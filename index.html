@@ -33,13 +33,16 @@
   .container {
       padding: 80px 120px;
   }
+  #main {
+    height: 100vh;
+  }
   #splash {
     /*width: 0 auto margin;*/
     /*height: 300px;*/
-    /*background-color: #bf6969;*/
-    /*img src=("../mountains.JPG");*/
-    background-image: url("../mountains.JPG");
-    border: #bf6969;
+    height: 100%;
+    background-color: #bf6969;
+    /*background-image: url("./mountains.JPG");*/
+    border: solid 3px #bf6969;
   }
   .person {
       border: 10px solid transparent;
@@ -140,6 +143,13 @@
   .navbar-default .navbar-toggle {
       border-color: transparent;
   }
+  .textContainer h1 {
+    line-height: 100%;
+    width: 100%;
+    color: #22264b;
+    vertical-align: middle;
+    display: inline-block;
+}
   .open .dropdown-toggle {
       color: #fff;
       background-color: #555 !important;
@@ -250,9 +260,11 @@
 </div> -->
 
 <!-- Container (The Band Section) -->
-<div id="main" class="container text-center">
-  <div id = "splash" class = "row">
-    <h1>June Shaw</h1>
+<section id="browse" class="browse">
+  <div id="main" class="container text-center">
+    <div id = "splash" class = "row">
+      <div class = "textContainer">
+        <h1>June Shaw</h1>
   <!-- </div> -->
   <!-- <p><em>We love music!</em></p>
   <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -292,6 +304,8 @@
       </div>
     </div>
   </div> -->
+    </div>
+  </div>
 </div>
 
 <!-- Container (TOUR Section) -->
