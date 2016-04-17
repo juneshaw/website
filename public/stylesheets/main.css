@@ -182,3 +182,10 @@ footer a:hover {
 textarea {
     resize: none;
 }
+#portfolio {
+
+}
+#resume {
+  width: 100vh;
+  height: 100vh;
+}
