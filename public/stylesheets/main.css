@@ -37,9 +37,6 @@ h3, h4 {
 .container {
     padding: 80px 0px;
 }
-#main {
-  height: 100vh;
-}
 #splash {
   /*width: 0 auto margin;*/
   /*height: 300px;*/
@@ -182,8 +179,11 @@ footer a:hover {
 textarea {
     resize: none;
 }
+#main {
+  height: 100vh;
+}
 #portfolio {
-
+  height: 100vh;
 }
 #resume {
   width: 100vh;
@@ -191,4 +191,15 @@ textarea {
 }
 #name {
   font-size: 40px;
+}
+.brand-height {
+  /*height: 75px;*/
+}
+.portfolio-img {
+  height:300px;
+}
+.portfolio-piece {
+  background-color: #bf6969;
+  padding: 20px;
+  margin: 10px;
 }
