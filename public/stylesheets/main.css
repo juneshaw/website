@@ -189,3 +189,6 @@ textarea {
   width: 100vh;
   height: 100vh;
 }
+#name {
+  font-size: 40px;
+}
